@@ -1,5 +1,5 @@
 var connection = require("./connection.js");
-var table = require('console.table');
+// var table = require('console.table');
 var orm = {
     selectAll: function(callback) {
         var queryString = "SELECT * FROM burgers";
@@ -7,7 +7,7 @@ var orm = {
             if (err) {
                 throw err;
             }
-            console.table(result);
+            // console.table(result);
             callback(result);
         });
     },
@@ -22,7 +22,7 @@ var orm = {
             devoured: false,
             myDate: myObj.date
         }, function(err, result) {
-            console.table(result);
+            // console.table(result);
             callback(result);
         });
     },
@@ -30,7 +30,7 @@ var orm = {
         var queryString = "UPDATE burgers SET devoured = true WHERE id = ?";
         console.log(queryString);
         connection.query(queryString, [idVal], function(err, result) {
-            console.table(result);
+            // console.table(result);
             callback(result);
         });
     }
