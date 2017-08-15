@@ -29,5 +29,5 @@ var server = app.listen(app.get('port'), function() {
 
 // reload allows auto-refresh of server if there are changes in pre-identified files (without using ^C.)
 // Used only during development. Comment out after passing final testing.
-var reload = require('reload');
-reload(app);
+// var reload = require('reload');
+// reload(app);
