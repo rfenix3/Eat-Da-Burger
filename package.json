@@ -1,5 +1,5 @@
 {
-  "name": "eattheburger",
+  "name": "eat-the-burger",
   "version": "1.0.0",
   "description": "This is a burger logger with MySQL, Node, Express, Handlebars and ORM (yum!), following the MVC design pattern.  Node and MySQL to query and route data to the app, and Handlebars to generate HTML.",
   "main": "server.js",
@@ -8,6 +8,7 @@
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.9",
+    "moment": "^2.18.1",
     "mysql": "^2.14.1",
     "reload": "^2.2.1"
   },
