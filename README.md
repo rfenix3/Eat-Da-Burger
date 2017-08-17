@@ -8,6 +8,7 @@ This is a burger logger with MySQL, Node, Express, Handlebars and ORM, following
 * express-handlebars (npm)
 * body-parser (npm)
 * mysql (npm)
+* moment (npm)
 
 ## Other Technology Used
 * console.table (npm) for viewing SQL in the console
