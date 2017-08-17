@@ -14,7 +14,8 @@ This is a burger logger with MySQL, Node, Express, Handlebars and ORM, following
 * console.table (npm) for viewing SQL in the console
 * MySQL Workbench (SQL Database)
 * reload (npm)
-* heroku
+* heroku (for deployment)
+* JAWSDB (heroku-based Database)
 
 ## Application Link
 * [Eat-Da-Burger](https://rf-eat-da-burger.herokuapp.com/)
